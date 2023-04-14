@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    color: #C7C4BD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #292628;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    min-width: 400px;
+    border-radius: 10px;
+}
+
+.header {
+    padding: 1rem;
+}
+
+.senha {
+    background-color: #B17BB5;
+    display: flex;
+    color: #555555;
+    font-size: 1.5rem;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    overflow: auto;
+    border-radius: 6px;
+}
+
+.senha button {
+    background-color: #C7C4BD;
+    border: none;
+    color: rgb(29, 2, 56);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0.25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, 20%);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+    border-radius: 3px;
+}
+
+.senha:hover button {
+    opacity: 1;
+    transform: translate(0, 0%);
+}
+
+.senha-body {
+    padding: 0 1rem 1rem;
+}
+
+.config {
+  color: #C7C4BD;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.75rem 0;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #B17BB5;
+  cursor: pointer;
+}
+
+.gerador {
+  background-color: #B17BB5;
+  border: none;
+  color: #292628;
+  cursor: pointer;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  width: 100%;
+  border-radius: 10px;
+}
