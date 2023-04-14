@@ -88,6 +88,12 @@ input[type="checkbox"]:checked {
   cursor: pointer;
 }
 
+input[type="number"] {
+  background-color: #C7C4BD;;
+  height: 30px;
+  width: 50px;
+}
+
 .gerador {
   background-color: #B17BB5;
   border: none;
