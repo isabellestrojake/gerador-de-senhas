@@ -3,6 +3,10 @@
 
 App prático e simples que cria de forma aleatória senhas.
 
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/isabellestrojake/gerador-de-senhas/master/screenshot.png)
+
 ## Funcionalidades
 
 Você tem a opção de incluir letras minúsculas, maiúsculas, números e símbolos. Além disso, é possível escolher o tamanho da senha entre 2 e 30 caracteres, a depender do uso!
